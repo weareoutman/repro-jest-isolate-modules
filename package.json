@@ -1,0 +1,20 @@
+{
+  "name": "repro-jest-isolate-modules",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "@testing-library/react": "^11.2.7",
+    "babel-jest": "^27.0.1",
+    "jest": "^27.0.1"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
